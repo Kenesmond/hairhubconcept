@@ -1,0 +1,132 @@
+/* Custom styles for Hair-Hub Concept Salon */
+
+.about-header {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.about-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.mission-section {
+    padding: 60px 0;
+}
+
+.gallery {
+    padding: 60px 0;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Optional: Add more custom styles below */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+}
+/* Navbar is handled by Bootstrap, no extra styles needed unless customizing */
+/* Footer styles are handled by Bootstrap, but you can customize if needed */
+footer {
+    background-color: #343a40; /* Dark gray */
+    color: #fff;
+    padding: 30px 20px;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s;
+}
+footer a:hover {
+    color: #ffc107; /* Bootstrap warning color for hover effect */
+}
+    /* Ensure the gallery images are responsive */
+    .gallery img {
+        max-width: 100%;
+        height: auto;
+    }
+    /* Adjust padding for smaller screens */
+    @media (max-width: 768px) {
+        .gallery {
+            padding: 30px 0;
+        }
+    }
+    .contact-form {
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .contact-form {
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 12px 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .contact-form button {
+        background-color: #007bff; /* Bootstrap primary color */
+        color: #fff;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .contact-form button:hover {
+            background-color: #0056b3; /* Darker shade for hover effect */
+        }
+    .contact-form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 12px 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .contact-form button {
+            background-color: #007bff; /* Bootstrap primary color */
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    .hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+    .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+footer a:hover {
+    color: #ffc107; /* Bootstrap warning color for hover effect */
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.2s;
+}
+
+    

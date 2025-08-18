@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - Hair-Hub Concept Salon</title>
+    <link rel="stylesheet" href="./css/about.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        /* Custom styles */
+        .about-header {
+            padding: 60px 0;
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+        .about-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .mission-section {
+            padding: 60px 0;
+        }
+        .gallery {
+            padding: 60px 0;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Hair-Hub Concept Salon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Header -->
+    <section class="about-header">
+        <div class="container">
+            <h1>About Hair-Hub Concept Salon</h1>
+            <p class="lead">Beauty, Style, and Confidence — My Mission to Make You Shine</p>
+        </div>
+    </section>
+
+    <!-- Our Mission -->
+    <section class="mission-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h2>My Mission</h2>
+                    <p>At Hair-Hub Concept Salon, our mission is to provide top-tier hair styling and care services in a relaxing and friendly environment. We are committed to enhancing your natural beauty with personalized attention, high-quality products, and the latest styling techniques.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1612286314004-9bfa2e55a7f1?ixlib=rb-4.0.4&auto=format&fit=crop&w=800&q=80" alt="Salon Interior" class="img-fluid rounded" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Meet My Team</h2>
+            <div class="row g-4">
+                <!-- Team Member 1 -->
+                <div class="col-md-4 text-center">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.4&auto=format&fit=crop&w=200&q=80" class="rounded-circle mb-3" alt="Stylist 1" width="150" height="150" />
+                    <h5>Concepta Kenneth</h5>
+                    <p>Senior Stylist</p>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="col-md-4 text-center">
+                    <img src="https://images.unsplash.com/photo-1544725176-7c40e5a0c3f0?ixlib=rb-4.0.4&auto=format&fit=crop&w=200&q=80" class="rounded-circle mb-3" alt="Stylist 2" width="150" height="150" />
+                    <h5>Alex Smith</h5>
+                    <p>Color Specialist</p>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="col-md-4 text-center">
+                    <img src="https://images.unsplash.com/photo-1547721064-028c856f1134?ixlib=rb-4.0.4&auto=format&fit=crop&w=200&q=80" class="rounded-circle mb-3" alt="Stylist 3" width="150" height="150" />
+                    <h5>Emily Johnson</h5>
+                    <p>Styling Expert</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery">
+        <div class="container">
+            <h2 class="text-center mb-4">Gallery</h2>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.4&auto=format&fit=crop&w=600&q=80" alt="Salon Style 1" />
+                </div>
+                <div class="col-md-4">
+                    <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?ixlib=rb-4.0.4&auto=format&fit=crop&w=600&q=80" alt="Salon Style 2" />
+                </div>
+                <div class="col-md-4">
+                    <img src="https://images.unsplash.com/photo-1520962911-0f0a3ab5a7b7?ixlib=rb-4.0.4&auto=format&fit=crop&w=600&q=80" alt="Salon Style 3" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2025 Hair-Hub Concept Salon. All rights reserved.</p>
+            <p>
+                <a href="index.html" class="text-white me-3">Home</a>
+                <a href="services.html" class="text-white me-3">Services</a>
+                <a href="about.html" class="text-white">About Me</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../javaScript/about.js"></script>
+</body>
+</html>

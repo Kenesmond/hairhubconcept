@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Services - Hair-Hub Concept Salon</title>
+    <link rel="stylesheet" href="./css/services.css">    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+   
+    <style>
+        /* Custom styles */
+        .header-section {
+            padding: 60px 0;
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+        .header-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .service-card {
+            transition: transform 0.2s;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Hair-Hub Concept Salon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="header-section">
+        <div class="container">
+            <h1>My Services</h1>
+            <p class="lead">Explore the wide range of hair care and styling services I offer to help you look and feel great.</p>
+        </div>
+    </section>
+
+    <!-- Services List -->
+    <section class="section py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Service 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 service-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Hair Cutting & Styling</h5>
+                            <p class="card-text">Trendy cuts, classic styles, and professional styling for all hair types and occasions.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 service-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Color & Highlights</h5>
+                            <p class="card-text">Vibrant hair coloring, highlights, balayage, and color correction to enhance your look.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 service-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Hair Treatments</h5>
+                            <p class="card-text">Deep conditioning, keratin treatments, scalp care, and repair treatments for healthy hair.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 4 -->
+                <div class="col-md-4">
+                    <div class="card h-100 service-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Bridal & Event Styling</h5>
+                            <p class="card-text">Specialized styling for weddings, parties, and special events to make you shine.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 5 -->
+                <div class="col-md-4">
+                    <div class="card h-100 service-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Hair Extensions</h5>
+                            <p class="card-text">Add length and volume with high-quality hair extensions, professionally applied.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 6 -->
+                <div class="col-md-4">
+                    <div class="card h-100 service-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Kids & Teen Hair Making</h5>
+                            <p class="card-text">Fun and stylish hair making  for kids and teenagers in a friendly environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- <footer class="footer bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2025 Hair-Hub Concept Salon. All rights reserved.</p>
+            <p>
+                <a href="home.html" class="text-white me-3">Home</a>
+                <a href="home.html#about" class="text-white me-3">About Me</a>
+                <a href="home.html#contact" class="text-white">Contact</a>
+            </p>
+        </div>
+    </footer> -->
+    <!-- Bootstrap Icons CDN (add this inside your <head> if not already included) -->
+
+<!-- Updated Footer -->
+<footer class="footer">
+   <div class="container">
+        <p>&copy; 2025 Hair-Hub Concept Salon. All rights reserved.</p>
+        <p>
+            <a href="home.html" class="text-white me-3">Home</a>
+            <a href="home.html#about" class="text-white me-3">About Me</a>
+            <a href="home.html#contact" class="text-white me-3">Contact</a>
+        </p>
+    </div>
+</footer>
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../javaScript/services.js"></script>
+</body>
+</html>

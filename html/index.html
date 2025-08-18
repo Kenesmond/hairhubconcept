@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hair-Hub Concept Salon</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        /* Custom styles */
+        .hero {
+            background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.4&auto=format&fit=crop&w=1950&q=80') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .section {
+            padding: 60px 0;
+        }
+        .footer {
+            background-color: #222;
+            color: #fff;
+            padding: 30px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Hair-Hub Concept Salon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to Hair-Hub Concept Salon</h1>
+            <p class="lead">Your hairstyle, my passion. Experience the best hair care services in town.</p>
+            <a href="#services" class="btn btn-primary btn-lg mt-3">Explore my Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">My Services</h2>
+            <div class="row g-4">
+                <div class="col-md-4 text-center">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Hair Cutting & Styling</h5>
+                            <p class="card-text">Trendy cuts, classic styles, and expert styling for all hair types.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Color & Highlights</h5>
+                            <p class="card-text">Beautiful color treatments, highlights, and balayage to enhance your look.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Hair Treatments</h5>
+                            <p class="card-text">Deep conditioning, keratin treatments, and scalp care for healthy hair.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">About Hair-Hub Concept Salon</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="https://images.unsplash.com/photo-1612286314004-9bfa2e55a7f1?ixlib=rb-4.0.4&auto=format&fit=crop&w=800&q=80" 
+                         alt="Salon Interior" class="img-fluid rounded" />
+                </div>
+                <div class="col-md-6">
+                    <p>Hair-Hub Concept Salon is dedicated to providing top-quality hair services in a relaxing and friendly environment. Our expert stylists are passionate about creating styles that suit your personality and lifestyle. We use premium products and stay updated with the latest trends to deliver exceptional results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="you@example.com" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2025 Hair-Hub Concept Salon. All rights reserved.</p>
+            <p>
+                <a href="#" class="text-white me-3">Privacy Policy</a>
+                <a href="#" class="text-white">Terms of Service</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../javaScript/index.js"></script>
+</body>
+</html>
